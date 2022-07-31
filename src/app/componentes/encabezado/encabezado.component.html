@@ -1,0 +1,41 @@
+<div class="row"> 
+
+    <div class="container">
+
+        <div class="logo">
+            <img src="../assets/LogoAP-YP.png" alt="Logo Argentina Programa" id="logoprincipal">
+        </div>
+
+        <div class="redes">
+            <a href="https://www.facebook.com/martina.pacheco.7"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/marti.mp/"><i class="bi bi-instagram"></i></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INICIAR SESIÓN</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- acá va una línea divisoria -->
+
+<hr/>
+
+<!-- acá empiezan las imágenes -->
+
+<div class="boton-edit">
+    <img class="img-fluid" src="../assets/Banner_003.png" alt="Imagen de portada" id="banner">
+    <a href=""><i class="bi bi-pencil-square"></i></a>
+</div>
+
+<div class="perfil">
+    <div>
+        <img src="../assets/Perfil.png" alt="Foto de perfil" id="foto">
+    </div>
+
+    <div class="botones">
+        <a href=""><i class="bi bi-pencil-square"></i></a>
+    </div>
+</div>
